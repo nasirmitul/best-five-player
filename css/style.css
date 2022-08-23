@@ -196,6 +196,6 @@ header p{
 }
 
 button:disabled{
-    background: red !important;
-    border: 1px solid red;
+    background: rgb(80, 80, 80) !important;
+    color: #cecece !important;
 }
