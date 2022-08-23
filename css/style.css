@@ -78,7 +78,7 @@ header p{
 }
 
 .players .player-row .player .name{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 10px 0;
     color: #fff;
 }
@@ -93,7 +93,6 @@ header p{
 .players .player-row .player .goal-assist span{
     margin: 0 10px;
     font-size: 2rem;
-}
 
 .players .player-row .player button{
     background: #015196;
