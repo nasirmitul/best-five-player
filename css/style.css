@@ -194,3 +194,8 @@ header p{
 .main-right .budget .total .ammount{
     color: #FF5E19;
 }
+
+button:disabled{
+    background: red !important;
+    border: 1px solid red;
+}
