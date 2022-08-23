@@ -45,6 +45,7 @@ header p{
 .main-section{
     margin-top: 50px;
     display: flex;
+    margin-bottom: 120px;
 }
 
 .main-left{
@@ -198,4 +199,16 @@ header p{
 button:disabled{
     background: rgb(80, 80, 80) !important;
     color: #cecece !important;
+}
+
+footer{
+    margin: 50px;
+    background: #151515;
+    border-top: 1px solid #434343;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
 }
