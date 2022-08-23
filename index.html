@@ -24,7 +24,7 @@
                         <img src="img/messi.jpg" alt="">
                         <h3 class="name">Lionel Messi</h3>
                         <p class="goal-assist">36 Goals <span>.</span> 120 Assist</p>
-                        <button>Select</button>
+                        <button id="messi">Select</button>
                     </div>
                     <div class="player">
                         <img src="img/neymer.jpg" alt="">
@@ -67,12 +67,8 @@
             <div class="best-v-player">
                 <h3>Selected - V</h3>
                 <div class="list">
-                    <ol>
-                        <li>Name</li>
-                        <li>Name</li>
-                        <li>Name</li>
-                        <li>Name</li>
-                        <li>Name</li>
+                    <ol class="name-list">
+                        
                     </ol>
                 </div>
             </div>
@@ -80,27 +76,27 @@
                 <h3>Budget</h3>
                 <div class="per-player">
                     <p>Per player</p>
-                    <input type="text" name="" id="">
+                    <input id="player-price" type="text">
                 </div>
-                <button>Calculate</button>
+                <button id="calculate-player">Calculate</button>
                 <div class="player-expences">
                     <p>Player Expences: </p>
-                    <p class="ammount">$<span>50000</span></p>
+                    <p class="ammount">$<span id="total-player-cost">0</span></p>
                 </div>
                 <div class="coach-manager">
                     <div class="manager">
                         <p>Manager</p>
-                        <input type="text" name="" id="">
+                        <input id="manager-price" type="text">
                     </div>
                     <div class="coach">
                         <p>Coach</p>
-                        <input type="text">
+                        <input id="coach-price" type="text">
                     </div>
-                    <button>Calculate Total</button>
+                    <button id="calculate-total-button">Calculate Total</button>
 
                     <div class="total">
                         <p>Total</p>
-                        <p class="ammount">$<span>100000</span></p>
+                        <p class="ammount">$<span id="calculate-total">0</span></p>
                     </div>
                 </div>
             </div>

@@ -93,6 +93,7 @@ header p{
 .players .player-row .player .goal-assist span{
     margin: 0 10px;
     font-size: 2rem;
+}
 
 .players .player-row .player button{
     background: #015196;
